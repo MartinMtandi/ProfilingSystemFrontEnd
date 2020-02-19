@@ -1,0 +1,35 @@
+::-webkit-scrollbar{
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+    background: #B22222;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: #13293D;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 1px;
+  }
+
+#chartWrapper, #chartWrapper2{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-right: -20%;
+  transform: translate(-50%, -50%);
+  width: 44%;
+}
+
+.edit{
+  margin-left: 93%;
+  padding: 3px 5px;
+  border-radius: 50%;
+}
+
+.edit:hover{
+  background: #ddd;
+  cursor: pointer;
+}
+
