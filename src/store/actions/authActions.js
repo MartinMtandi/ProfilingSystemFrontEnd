@@ -4,7 +4,7 @@ import jwt_decode from 'jwt-decode';
 import setAuthToken from '../../utils/setAuthToken';
 import { GET_ERRORS, SET_CURRENT_USER } from './types';
 
-const host = 'http://p.poshto.co.zw:5000';
+const host = 'https://p.poshto.co.zw:5000';
 
 export const loginUser = userData => dispatch => {
     axios.post(`${host}/api/users/login`, userData)

@@ -1,7 +1,7 @@
 {
   "name": "react-poshto-profiling",
   "version": "0.1.0",
-  "homepage": "http://profile.poshto.co.zw",
+  "homepage": "https://profile.poshto.co.zw",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.8.2",

@@ -10,7 +10,7 @@ import {
 } from './types';
 
 
-const host = 'http://p.poshto.co.zw:5000';
+const host = 'https://p.poshto.co.zw:5000';
 
 //Questions Sections
 export const getQuestionsList = () => dispatch => {

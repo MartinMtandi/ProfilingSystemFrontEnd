@@ -24,7 +24,7 @@ class ResponseGraph extends Component {
                male = val.total;
             }
             
-            if(props.response_analysis.data.length == Number(index + 1)){
+            if(props.response_analysis.data.length === Number(index + 1)){
                 let total = female + male;
                 data = [total, male, female]
 
